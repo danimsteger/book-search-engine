@@ -1,2 +1,2 @@
 const { User } = require('../models');
-const { signToken } = require('../utils/auth');
+const { signToken, AuthenticatoinError } = require('../utils/auth');
